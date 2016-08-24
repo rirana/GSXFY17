@@ -16,7 +16,7 @@ header = {"content-type": "application/json"}
 
 #Performs a POST on the specified url.
 # response= requests.post(url,data=json.dumps(payload), headers=header, verify=False)
-response= requests.post(url,false, headers=header, verify=False)
+response = requests.get(url)
 
 # print the json that is returned
 print(response.text)
