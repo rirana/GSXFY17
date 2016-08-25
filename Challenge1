@@ -1,0 +1,15 @@
+POST /marathon/v2/apps HTTP/1.1
+Host: mantlsandbox.cisco.com
+Content-Type: application/json
+Authorization: Basic YWRtaW46MXZ0R0Bsd0B5
+Cache-Control: no-cache
+Postman-Token: b769f30e-309e-f161-ce4a-2d39bee3757f
+
+{
+    "id": "rajran-gsx",
+    "cmd": "curl --url https://1faoejtuza.execute-api.us-east-1.amazonaws.com/prod/gsx-challenge",
+    "cpus": 0.5,
+    "mem": 50,
+    "instances": 1,
+    "ports": [0]
+}
