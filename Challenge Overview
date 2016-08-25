@@ -1,0 +1,59 @@
+Documents:  http://production--devnet-challe--devnet-challenge-api--53c63a.gce.shipped-cisco.com/docs
+
+——————————————————
+
+Post:  
+http://production--devnet-challe--devnet-challenge-api--53c63a.gce.shipped-cisco.com/users
+
+Body:
+{
+    "username": "rajran",
+    “email”: "rajran@cisco.com"
+}
+
+Response:
+{
+  "__v": 0,
+  "username": "rajran",
+  "password": "rogavigedo",
+  "email": "rajran@cisco.com",
+  "role": "user",
+  "_id": "57ba28e8ad03270100cf6ed2",
+  "createdDate": "2016-08-21T22:19:20.440Z",
+  "id": "57ba28e8ad03270100cf6ed2"
+}
+
+———————————————
+
+Post:
+http://production--devnet-challe--devnet-challenge-api--53c63a.gce.shipped-cisco.com/authenticate
+
+Body:
+{
+    "username": "rajran",
+    "password": "rogavigedo"
+}
+
+Response:
+{
+  "success": true,
+  "message": "Enjoy your token!",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhanJhbiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNDcxODE4MjY3LCJleHAiOjE0NzMwMjc4Njd9.ueMdrRN261Jm_pIyGMsKC6uuQIyFCV7FYV6HGw-lR1U"
+}
+
+———————————————
+
+Get:  http://production--devnet-challe--devnet-challenge-api--53c63a.gce.shipped-cisco.com/challenges/rajran
+- what are the challenges and answers submitted?
+
+[
+  {
+    "_id": "57ba2c93ad03270100cf6ed3",
+    "name": "SampleChallenge",
+    "answer": "TestAnswer",
+    "user": "rajran",
+    "__v": 0,
+    "createdDate": "2016-08-21T22:34:59.317Z",
+    "id": "57ba2c93ad03270100cf6ed3"
+  }
+]
