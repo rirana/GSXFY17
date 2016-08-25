@@ -1,0 +1,11 @@
+POST /challenges HTTP/1.1
+Host: production--devnet-challe--devnet-challenge-api--53c63a.gce.shipped-cisco.com
+Content-Type: application/json
+access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhanJhbiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNDcxODE4MjY3LCJleHAiOjE0NzMwMjc4Njd9.ueMdrRN261Jm_pIyGMsKC6uuQIyFCV7FYV6HGw-lR1U
+Cache-Control: no-cache
+Postman-Token: dfc958fa-3bad-f8aa-e398-0ef4f51549fa
+
+{
+  "name": "challenge0",
+  "answer": "answer"
+}
