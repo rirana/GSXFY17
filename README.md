@@ -10,3 +10,5 @@ Test URL for Container:  http://rajran-gsx.app.mantldevnetsandbox.com/
   (assuming that Global name is "rajran-gsx")
 
 Day 1 Challenges:  https://cisco.jiveon.com/docs/DOC-1556314
+  - Run command, Review list of Mesos tasks, Click on Sandbox and Choose "stdout"
+  - Output:  "Alohomora! 64.103.37.4"
